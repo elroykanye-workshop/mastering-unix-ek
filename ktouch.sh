@@ -1,14 +1,14 @@
 #!/bin/sh
 #
-# SCRIPT: NAME_OF_SCRIPT
-# AUTHOR: AUTHORS_NAME
-# DATE: DATE_OF_CREATION
+# SCRIPT: ktouch
+# AUTHOR: Elroy Kanye
+# DATE: July 06 2021
 # 1.1.A (Valid are A, B, D, T and P)
 #       (For Alpha, Beta, Dev, Test and Production)
 #
-# PLATFORM: (SPECIFY: AIX, HP-UX, Linux, OpenBSD, Solaris or Not platform dependent)
+# PLATFORM:  Linux
 #
-# PURPOSE: Give a clear description of the purpose of the shell script.
+# PURPOSE: Creates a new file from the template.sh file and makes it executable ASAP
 #
 # REV LIST:
 #       DATE: Date of Revision
@@ -37,5 +37,6 @@
 ############################################################
 touch $1
 cat template.sh > $1
+chmod +x $1
 
 # End of Script
