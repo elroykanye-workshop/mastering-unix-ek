@@ -22,6 +22,11 @@
 ############################################################
 #       DEFINE FILES AND VARIABLES HERE
 ############################################################
+num1=3  # var 1 for comparison
+num2=4  # var 2 for comparison
+i=1     # var i for iteration
+c=3
+sum=0   # sum accumulator
 
 
 
