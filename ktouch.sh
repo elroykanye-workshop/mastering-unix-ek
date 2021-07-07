@@ -36,7 +36,7 @@
 #       BEGINNING OF MAIN
 ############################################################
 touch $1
-cat template.sh > $1
+cat ktemplate.sh > $1
 chmod +x $1
 
 # End of Script

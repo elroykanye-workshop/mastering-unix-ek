@@ -1,14 +1,14 @@
 #!/bin/sh
 #
-# SCRIPT: NAME_OF_SCRIPT
-# AUTHOR: AUTHORS_NAME
-# DATE: DATE_OF_CREATION
+# SCRIPT: Template
+# AUTHOR: Elroy Kanye
+# DATE: 
 # 1.1.A (Valid are A, B, D, T and P)
 #       (For Alpha, Beta, Dev, Test and Production)
 #
-# PLATFORM: (SPECIFY: AIX, HP-UX, Linux, OpenBSD, Solaris or Not platform dependent)
+# PLATFORM: Linux
 #
-# PURPOSE: Give a clear description of the purpose of the shell script.
+# PURPOSE: To be used a template for every script.
 #
 # REV LIST:
 #       DATE: Date of Revision
@@ -42,4 +42,6 @@
 
 
 
-# End of Script
+############################################################
+#       END OF SCRIPT
+############################################################
