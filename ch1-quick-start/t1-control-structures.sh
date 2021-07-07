@@ -53,6 +53,14 @@ echo ; echo ;
 # the above can also be extended to using more conditions with elif
 
 
+##### For Statement #####
+# This offers you the ability to iterate over a collection and perform some task repeatedly.
+echo "For Statement"
+for a in $@; do # this will loop through all the arguments passed to it in the terminal.
+    echo $a
+done
+echo ; echo ;
+
 
 
 
