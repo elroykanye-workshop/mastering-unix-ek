@@ -62,6 +62,14 @@ done
 echo ; echo ;
 
 
+##### While Statement #####
+# This ofers you the ability to repeat a piece of code as long as a certain condition is true.
+echo "While statement"
+while [ $i -le 10 ]; do
+    echo $i
+    i=$(($i+1))
+done
+echo ; echo ;
 
 
 
