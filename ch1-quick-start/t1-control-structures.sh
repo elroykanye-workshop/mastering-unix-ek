@@ -41,6 +41,16 @@ sum=0   # sum accumulator
 #       BEGINNING OF MAIN
 ############################################################
 
+##### If Statement #####
+# This offers you the ability to execute a piece of code based on the state of the condition
+echo "If statement"
+if [ $num1 -lt $num2 ]; then
+    echo "$num1 is less than $num2"
+else
+    echo "$num1 is greater than $num2"
+fi
+echo ; echo ;
+# the above can also be extended to using more conditions with elif
 
 
 
