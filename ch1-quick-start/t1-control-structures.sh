@@ -98,3 +98,18 @@ case $c in
 # *) (optional - any other value)
 #       commands to execute for no match
 esac
+
+
+##### Using break, continue, exit and return #####
+#
+# break: terminate execution of an entire loop, after completing the execution of all the code before it.
+#
+# continue: transfer control to the next set of code, but continues execution of the loop.
+#
+# exit: will terminate the entire script. Could be used with a termination code (e.g. 'exit 0').
+#
+# return: used in a function to send data back or return a result or result code, to the calling script.
+#
+############################################################
+#       END OF SCRIPT
+############################################################
