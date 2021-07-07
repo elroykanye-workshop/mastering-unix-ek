@@ -30,7 +30,6 @@ sum=0   # sum accumulator
 
 
 
-
 ############################################################
 #       DEFINE FUNCTIONS HERE
 ############################################################
@@ -82,7 +81,8 @@ until [ $i -eq 10 ]; do
 done
 echo ; echo ;
 
-# End of Script
+
+
 ##### Case Statement #####
 # Takes a variable and performs task based on which value it matches
 echo "Case Statement"
