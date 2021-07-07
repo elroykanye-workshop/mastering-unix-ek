@@ -1,14 +1,14 @@
 #!/bin/sh
 #
-# SCRIPT: NAME_OF_SCRIPT
-# AUTHOR: AUTHORS_NAME
-# DATE: DATE_OF_CREATION
+# SCRIPT: Control Structures
+# AUTHOR: Elroy Kanye
+# DATE: July 06 2021
 # 1.1.A (Valid are A, B, D, T and P)
 #       (For Alpha, Beta, Dev, Test and Production)
 #
-# PLATFORM: (SPECIFY: AIX, HP-UX, Linux, OpenBSD, Solaris or Not platform dependent)
+# PLATFORM: Linux
 #
-# PURPOSE: Give a clear description of the purpose of the shell script.
+# PURPOSE: Show with an example how the control structures in Bash are.
 #
 # REV LIST:
 #       DATE: Date of Revision
