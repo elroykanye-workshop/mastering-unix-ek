@@ -72,5 +72,14 @@ done
 echo ; echo ;
 
 
+##### Until Statement #####
+# Executes a piece of code till a certain a condition is met. Opposite to while.
+i=1
+echo "Until statement"
+until [ $i -eq 10 ]; do
+    echo $i
+    i=$(($i+1))
+done
+echo ; echo ;
 
 # End of Script
