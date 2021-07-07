@@ -83,3 +83,18 @@ done
 echo ; echo ;
 
 # End of Script
+##### Case Statement #####
+# Takes a variable and performs task based on which value it matches
+echo "Case Statement"
+case $c in
+3)  i=$c;
+    while [ $i -ge 0 ]; do
+        echo $i
+        i=$(($i-1))
+    done
+    ;;
+2)  echo "We have $c"
+    ;;
+# *) (optional - any other value)
+#       commands to execute for no match
+esac
