@@ -1,14 +1,14 @@
 #!/bin/sh
 #
-# SCRIPT: ktouch
+# SCRIPT: Variables
 # AUTHOR: Elroy Kanye
-# DATE: July 06 2021
+# DATE: 
 # 1.1.A (Valid are A, B, D, T and P)
 #       (For Alpha, Beta, Dev, Test and Production)
 #
-# PLATFORM:  Linux
+# PLATFORM: Linux
 #
-# PURPOSE: Creates a new file from the template.sh file and makes it executable ASAP
+# PURPOSE: To show how to create and access variables.
 #
 # REV LIST:
 #       DATE: Date of Revision
@@ -22,10 +22,14 @@
 ############################################################
 #       DEFINE FILES AND VARIABLES HERE
 ############################################################
-
-
-
-
+#
+#   Always define variables here.
+#
+    VARIABLE=5 # Define variable by directly assigning.
+    echo "Variables"
+    echo "VARIABLE = $VARIABLE" # access variable by $ character.
+#
+#
 ############################################################
 #       DEFINE FUNCTIONS HERE
 ############################################################
@@ -35,8 +39,13 @@
 ############################################################
 #       BEGINNING OF MAIN
 ############################################################
-touch $1
-cat ktemplate.sh > $1
-chmod +x $1
 
-# End of Script
+
+
+
+
+
+
+############################################################
+#       END OF SCRIPT
+############################################################
