@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# SCRIPT: Template
+# SCRIPT: Communicating with Users
 # AUTHOR: Elroy Kanye
 # DATE: 
 # 1.1.A (Valid are A, B, D, T and P)
@@ -8,7 +8,7 @@
 #
 # PLATFORM: Linux
 #
-# PURPOSE: To be used a template for every script.
+# PURPOSE: To be used to explain how to communicate with sharing the same OS locally or remotely.
 #
 # REV LIST:
 #       DATE: Date of Revision
@@ -35,13 +35,20 @@
 ############################################################
 #       BEGINNING OF MAIN
 ############################################################
-
-
-
-
-
-
-
+# wall:
+#       writes a message on the screen of all logged in users
+#       on the localhost
+# rwall:
+#       Writes a message on the screen of all logged-in users 
+#       on a remote host.
+# write:
+#       Writes a message to an individual user. The user must
+#       currently be logged in.
+# talk:
+#       Starts an interactive program that allows two users to 
+#       have a conversation. The screen is split in two, and 
+#       both users can see what each person is typing.
+#
 ############################################################
 #       END OF SCRIPT
 ############################################################
